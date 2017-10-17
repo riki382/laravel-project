@@ -54,6 +54,8 @@
 					            	<th colspan="6">
 					            		<input type="hidden" name="_token" value="{{ csrf_token() }}">
 					            		<input type="submit" class="btn btn-primary" value="Update">
+
+					            		<a href="/order/checkout" class="btn btn-primary">Checkout</a>
 					            	</th>
 					            	<th colspan="2">
 					            		<label>Total :

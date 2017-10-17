@@ -70,3 +70,6 @@ Route::group(['prefix'=>'cart', 'middleware'	=>	'web'], function() {
 	Route::get('remove/{id}', 'CartController@remove');
 });
 
+
+Route::get('order/checkout', 'OrderController@checkout');
+
